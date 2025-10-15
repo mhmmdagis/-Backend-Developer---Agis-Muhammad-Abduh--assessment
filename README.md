@@ -1,27 +1,21 @@
+# Backend Developer - Agis Muhammad Abduh Assessment
 
-# Task Management API (FastAPI)
+#Backend Developer - Agis Muhammad Abduh Assessment
 
-Features:
-- FastAPI + SQLAlchemy
-- JWT Authentication (access + refresh tokens)
-- Role-based access (admin, manager, user)
-- CRUD Task with filtering (by status, assignee, search)
-- File upload with validation (max 2MB, allowed types)
-- SQLite by default, PostgreSQL supported via DATABASE_URL
-- Alembic included (run migrations manually)
-- Tests with pytest
+#Deskripsi Proyek
+Proyek ini merupakan bagian dari technical assessment posisi Backend Developer, yang menampilkan implementasi API menggunakan FastAPI serta praktik pengembangan yang sesuai standar industri.
 
-## Quick start (local)
+#Tech Stack
 
-```bash
-unzip task_management_api_final.zip
-cd task_management_api_final
-python -m venv .venv
-source .venv/bin/activate  # or .venv\Scripts\activate on Windows
-pip install -r requirements.txt
-cp .env.example .env
-# (optional) edit .env
-uvicorn app.main:app --reload
-```
+- Backend: FastAPI (Python)
+- Database: SQLite (bisa diubah ke PostgreSQL/MySQL)
+- Version Control: Git + GitHub
+- Deployment: Railway (opsional)
+- API Documentation: Swagger UI (`/docs`)
 
-Open docs: http://127.0.0.1:8000/docs
+#Cara Menjalankan Proyek (Setup Instructions)
+
+1. Clone repository ini:
+   ```bash
+   git clone https://github.com/mhmmdagis/-Backend-Developer---Agis-Muhammad-Abduh--assessment.git
+   ```
